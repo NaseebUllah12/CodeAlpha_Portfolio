@@ -3,58 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Naseeb Ullah - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1><i class="fa-solid fa-user"></i> Naseeb Ullah</h1>
+      <p>Frontend Developer | BSCS Graduate | CodeAlpha Intern</p>
+      <nav>
+        <a href="#about"><i class="fa-solid fa-user-circle"></i> About</a>
+        <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+        <a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+        <a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+    </div>
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a passionate frontend developer with experience in HTML, CSS, JavaScript. I love building responsive and user-friendly web apps.
-    </p>
+    <div class="container">
+      <h2><i class="fa-solid fa-circle-info"></i> About Me</h2>
+      <p>I’m a frontend developer with strong skills in HTML, CSS, and JavaScript. I recently graduated with a BS in Computer Science from Abdul Wali Khan University Mardan (Timergara Campus), and completed a hands-on internship at CodeAlpha. I enjoy building responsive, elegant, and interactive websites.</p>
+    </div>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML5 & CSS3</li>
-      <li>JavaScript (ES6+)</li>
-      <li>Responsive Design</li>
-      <li>Git & GitHub</li>
-    </ul>
+  <section id="skills" class="highlight">
+    <div class="container">
+      <h2><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+      <ul class="grid-2">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>Python Basics</li>
+        <li>Flutter & Firebase (Basic)</li>
+      </ul>
+    </div>
   </section>
 
   <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Image Gallery</h3>
-      <p>Responsive gallery using JS & Lightbox view. [GitHub Repo Link]</p>
+    <div class="container">
+      <h2><i class="fa-solid fa-code-branch"></i> Projects</h2>
+      <div class="project-card">
+        <h3>🖼️ Image Gallery</h3>
+        <p>A responsive image gallery with filter categories and lightbox effect.</p>
+        <a href="https://github.com/NaseebUllah12/CodeAlpha_ImageGallery" target="_blank"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>🧮 Calculator</h3>
+        <p>A fully functional calculator with keyboard support and clean design.</p>
+        <a href="https://github.com/NaseebUllah12/CodeAlpha_Calculator" target="_blank"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>🎵 Music Player</h3>
+        <p>Interactive music player with animated cover, volume control, and playlist.</p>
+        <a href="https://github.com/NaseebUllah12/CodeAlpha_MusicPlayer" target="_blank"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      </div>
     </div>
-    <div class="project">
-      <h3>Calculator</h3>
-      <p>Fully functional calculator with keyboard support. [GitHub Repo Link]</p>
+  </section>
+
+  <section id="education" class="highlight">
+    <div class="container">
+      <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+      <p><strong>BS in Computer Science</strong><br>
+      Abdul Wali Khan University Mardan (Timergara Campus)<br>
+      2021 – 2025 | CGPA: 3.30 / 4.00<br>
+      Final Year Project: <em>AI Hub – A multi-feature AI utility app</em></p>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: youremail@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
-    <p><a href="assets/resume.pdf" download>Download Resume</a></p>
+    <div class="container">
+      <h2><i class="fa-solid fa-address-book"></i> Contact</h2>
+      <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:kamalasim676@gmail.com">kamalasim676@gmail.com</a></p>
+      <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/naseeb-ullah-007b55375" target="_blank">naseeb-ullah-007b55375</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
+    <div class="container">
+      <p>© 2025 Naseeb Ullah. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
