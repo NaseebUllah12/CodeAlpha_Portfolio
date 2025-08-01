@@ -1,3 +1,2 @@
-window.onload = () => {
-  console.log("Welcome to my portfolio!");
-};
+
+console.log("Interactive portfolio loaded.");
